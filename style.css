@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+*{
+    font-family: "Ubuntu", sans-serif;
+    padding: 0%;
+    margin: 0%;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+body{
+    background-image: linear-gradient(rgb(16, 15, 15),rgb(18, 18, 26));
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    
+}
+.container{
+    background-image:
+    linear-gradient(to right,rgb(204, 219, 90),rgba(61, 61, 83, 0.149)),
+    url(log2.jpg)
+    
+    ;
+    width: 90%;
+    height: 640px;
+}
+.container:hover{
+        background-image:
+        linear-gradient(to right,rgba(204, 219, 90, 0.656),transparent),
+        url(log2.jpg)
+        
+        ;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.logo{
+    font-size: 400%;
+    text-transform: uppercase;
+    text-indent: 80px;
+    margin-top: 80px;
+}
+ul{
+    width: 60%;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+ul a{
+    border-bottom: 2px solid transparent;
+}
+ul a:hover{
+    border-bottom-color:white ;
+}
+.tarek{
+    font-size: 30px;
+    width: 200%;
+    padding: 10px;
+    color: white;
+}
+.tarek button{
+    font-size: 18px;
+    padding: 6px 8px;
+    border-radius: 10px;
+   border: 2px solid transparent;
+   cursor: pointer;
+}
+.tarek button:hover{
+    background-color: transparent;
+border-color: white;
+color: white;
+}
